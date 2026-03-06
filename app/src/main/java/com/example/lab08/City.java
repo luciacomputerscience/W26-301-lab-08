@@ -27,6 +27,8 @@ public class City {
                 && this.province.equals(cityObj.province);
     }
 
+    // Creates a hashcode for the city
+    // First test to see if the CI pipeline works is adding the above comment
     @Override
     public int hashCode() {
         return city.hashCode() + province.hashCode();
